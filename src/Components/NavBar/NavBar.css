@@ -1,0 +1,36 @@
+nav{    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 0 2.5rem 0;
+    border-bottom: 1px solid var(--clr-primary-very-light-gray);
+}
+nav button{
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--clr-primary-light-gray);
+    font-size: .8rem;
+}
+nav button:hover{
+    color:var(--clr-primary-gray)
+}
+@media screen and (max-width:992px) {
+    header.container{
+       padding: 1.5rem 0 0 0 ;
+    }
+    nav{
+        padding: 0 2rem 1.5rem 2rem;
+    }
+    nav .logo{
+        width: 140px;
+    }
+}
+@media screen and (max-width:576px) {
+    nav button{
+        font-size: .6rem;
+    }
+    nav .logo{
+        width: 120px;
+    }  
+}

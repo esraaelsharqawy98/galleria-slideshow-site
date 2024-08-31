@@ -1,0 +1,45 @@
+.container{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+main {
+  padding: 2rem 0;
+}
+#gallery-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+#slider{
+  width: 100%;
+  height: 100%;
+  padding: 0 0 2rem 0;
+}
+footer{
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  #gallery-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 992px) {
+  main {
+    padding: 2rem;
+  }
+  #gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 576px) {
+  main{
+    padding: 2rem 1rem;
+  }
+  #gallery-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
