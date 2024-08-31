@@ -9,8 +9,13 @@ main {
 }
 #gallery-container {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-areas:
+   "card1 card2 card3 card4"
+   "card5 card6 card7 card8"
+   "card9 card10 card14 card11"
+   "card12 card13 card14 card15";
   gap: 2rem;
 }
 #slider{
