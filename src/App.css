@@ -1,4 +1,4 @@
-.container{
+.container {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -9,26 +9,32 @@ main {
 }
 #gallery-container {
   width: 100%;
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   grid-template-areas:
-   "card1 card2 card3 card4"
-   "card5 card6 card7 card8"
-   "card9 card10 card14 card11"
-   "card12 card13 card14 card15";
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "card1 card2 card3 card4"
+    "card5 card6 card7 card8"
+    "card9 card10 card14 card11"
+    "card12 card13 card14 card15";
   gap: 2rem;
 }
-#slider{
+#slider {
   width: 100%;
   height: 100%;
   padding: 0 0 2rem 0;
 }
-footer{
+footer {
   width: 100%;
 }
 @media screen and (max-width: 1200px) {
   #gallery-container {
     grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "card1 card2 card3"
+      "card4 card5 card6"
+      "card7 card8 card9"
+      "card10 card11 card12"
+      "card13 card14 card15"; 
   }
 }
 @media screen and (max-width: 992px) {
@@ -37,14 +43,39 @@ footer{
   }
   #gallery-container {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "card1 card2"
+      "card3 card4"
+      "card5 card6"
+      "card7 card8"
+      "card9 card10"
+      "card11 card12"
+      "card13 card14"
+      "card15 card15";
   }
 }
 @media screen and (max-width: 576px) {
-  main{
+  main {
     padding: 2rem 1rem;
   }
   #gallery-container {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5"
+      "card6"
+      "card7"
+      "card8"
+      "card9"
+      "card10"
+      "card11"
+      "card12"
+      "card13"
+      "card14"
+      "card15";
     gap: 1.5rem;
   }
 }
