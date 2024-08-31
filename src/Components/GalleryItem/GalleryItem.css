@@ -21,6 +21,7 @@
   
   #gallery-container a:nth-child(5) {
     grid-area: card5;
+    /* margin-top: -9rem; */
   }
   
   #gallery-container a:nth-child(6) {
@@ -29,22 +30,27 @@
   
   #gallery-container a:nth-child(7) {
     grid-area: card7;
+    /* margin-top: -7rem; */
   }
   
   #gallery-container a:nth-child(8) {
     grid-area: card8;
+    /* margin-top: -9rem; */
   }
   
   #gallery-container a:nth-child(9) {
     grid-area: card9;
+    /* margin-top: -12rem; */
   }
   
   #gallery-container a:nth-child(10) {
     grid-area: card10;
+    /* margin-top: -6rem; */
   }
   
   #gallery-container a:nth-child(11) {
     grid-area: card11;
+    /* margin-top: -17rem; */
   }
   
   #gallery-container a:nth-child(12) {
@@ -53,6 +59,7 @@
   
   #gallery-container a:nth-child(13) {
     grid-area: card13;
+    /* margin-top: -3rem; */
   }
   
   #gallery-container a:nth-child(14) {
@@ -61,6 +68,7 @@
   
   #gallery-container a:nth-child(15) {
     grid-area: card15;
+    /* margin-top: -4rem; */
   }
   
 .card{
